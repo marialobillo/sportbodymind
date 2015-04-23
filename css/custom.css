@@ -1,3 +1,13 @@
+@font-face{
+    font-family: 'gravity-book';
+    src: url('Gravity-book.ttf') format('ttf');
+}
+
+body{
+    font-family: 'gravity-book';
+}
+
+
   .navbar-wrapper {
             position: absolute;
             top: 20px;
