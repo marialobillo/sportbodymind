@@ -1,10 +1,15 @@
 @font-face{
     font-family: 'gravity-book';
-    src: url('Gravity-book.ttf') format('ttf');
+    src: url('css/gravity/Gravity-book.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'clemente_pd';
+    src: url('css/clemente_pd/ClementePDaa_Hairline.ttf') format('truetype');
+    src: url('css/clemente_pd/ClementePDai-Regular.ttf') format('truetype');
 }
 
 body{
-    font-family: 'gravity-book';
+    font-family: 'clemente_pd',Helvetica, Arial, sans-serif;
 }
 
 
@@ -202,4 +207,13 @@ Titulos
 */
 .titulo-pagina{
     font-size:5em;
+}
+
+/*
+FOOTER
+*/
+.footer{
+    background-color:#000;
+    color:#C1C4C1;
+    padding:4%;
 }
