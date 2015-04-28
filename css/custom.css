@@ -1,12 +1,23 @@
 @font-face{
-    font-family: 'gravity-book';
+    font-family: 'gravity';
     src: url('css/gravity/Gravity-book.ttf') format('truetype');
 }
 @font-face{
-    font-family: 'clemente_pd';
+    font-family: 'clemente';
     src: url('/css/clemente_pd/ClementePDac-ExtraLight.ttf') format('truetype');
     
 }
+@font-face{
+    font-family: 'clemente';
+    src: url('/css/sui_generis/sui_generis_rg.ttf');
+}
+
+@font-face{
+    font-family: 'clemente_pd';
+    src: url('/css/caviar_dreams/CaviarDreams.ttf');
+}
+
+/* ==================================================  */
 
 body{
     font-family: 'clemente_pd', Arial, sans-serif;
@@ -17,7 +28,7 @@ body{
   .navbar-wrapper {
 
 
-    font-family: 'clemente_pd', Arial, sans-serif;
+    font-family: 'clement_pd', Arial, sans-serif;
             position: absolute;
             top: 20px;
             left: 0;
